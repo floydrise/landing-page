@@ -74,7 +74,7 @@ a {
 button {
     background-color: #3882F6;
     padding: 8px 20px;
-    color: #e5e7eb;
+    color: #E5E7EB;
     border-radius: 8px;
     border: none;
     font-weight: bold;
@@ -142,11 +142,55 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 700px;
-    height: 230px;
 }
 
 .author {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 700;
+}
+
+/* CALL TO ACTION PART */
+
+.call-to-action {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    height: 130px;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 16px;
+    justify-content: space-around;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message1 {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.message2 {
+    color: #E5E7EB;
+}
+
+.action-button {
+    border: 2px solid #e5e7eb;
+    color: #E5E7EB;
+    border-radius: 8px;
+    height: 40px;
+    width:100px;
+    text-align: center;
+    align-self: center;
 }
