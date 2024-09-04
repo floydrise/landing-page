@@ -40,7 +40,7 @@ a {
 
 .bottom-part {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding-left: 70px;
     padding-top: 130px;
     padding-bottom: 130px;
@@ -67,7 +67,7 @@ a {
 }
 
 .small-text {
-    color: #e5e7eb;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -82,4 +82,71 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+/* Second part */
+
+.random-info {
+    text-align: center;
+    margin: 36px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.second-part {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.images {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.second-part-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.image {
+    max-width: 200px;
+    font-size: 18px;
+    color: dimgray;
+    text-align: center;
+}
+
+/* QUOTE PART */
+
+.quote-container {
+    display: flex;
+    height: 400px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 230px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
 }
